@@ -1,0 +1,10 @@
+.navbar{
+    display: inline-block;
+    background-color: grey;
+    width: 70%;
+}
+.navbar ul li{
+    display: inline-block; /* Displays the list items inline-block */
+    margin-right: 20px;    /* Adds space between the items */
+ 
+}
