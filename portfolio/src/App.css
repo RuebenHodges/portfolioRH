@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
-
+main{
+  background-color: rgb(131, 255, 83);
+  width: 70%;
+  align-items: center;
+  margin-top: 2%;
+  display: inline-block;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
