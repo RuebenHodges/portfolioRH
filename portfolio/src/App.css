@@ -2,7 +2,8 @@
   text-align: center;
 }
 main{
-  background-color: rgb(131, 255, 83);
+  border-style: dashed;
+  border-color: black;
   width: 70%;
   align-items: center;
   margin-top: 2%;

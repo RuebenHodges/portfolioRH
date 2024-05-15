@@ -1,20 +1,24 @@
 .navbar{
     display: inline-block;
-    background-color: rgb(91, 134, 255);
-    border-radius: 20px;  /* Rounded corners */
-    width: 70%;
-    margin-top: 2%;
+    background-color:#001F44;
+    border: 20px; 
+    top: 0;
+    z-index: 1000; /* Ensures the navbar stays on top of other content */
+    position: sticky;
+    width: 100%;
 }
 .navbar ul li{
-    color: white;
     display: inline-block; /* Displays the list items inline-block */
-    margin-right: 20px;    /* Adds space between the items */
+    margin-right: 50px;    /* Adds space between the items */
+}
+.navbar ul li a{
+    color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+    text-decoration: none;
  
 }
-.navbar ul li:hover{
-    background-color: rgb(150, 248, 255);
-    border-radius: 20px;  /* Rounded corners */
- 
+.navbar ul li a:hover{
+
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
