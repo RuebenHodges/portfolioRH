@@ -9,12 +9,16 @@
 }
 .navbar ul li{
     display: inline-block; /* Displays the list items inline-block */
-    margin-right: 50px;    /* Adds space between the items */
+    margin-right: 100px;    /* Adds space between the items */
+    font-size: xx-large;
+    padding: 5px;
 }
 .navbar ul li a{
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
     text-decoration: none;
+    font-family: Georgia,;
+    letter-spacing: 0.5px;
  
 }
 .navbar ul li a:hover{
