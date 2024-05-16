@@ -4,8 +4,6 @@
 }
 main{
   
-  border-style: dashed;
-  border-color: rgb(0, 0, 0);
   width: 100%;
   height: 100%;
   align-items: center;
@@ -18,49 +16,56 @@ h1{
 }
 /*All CSS for introduction*/
 .introduction{
-  border: 5px solid rgb(8, 216, 94); /* For visual spacing*/
   width: 100%;
   display: inline-block;
 }
+.introduction-container{
+  display: inline-block;
+  align-items: center;
+  width: 43%;
+}
 .pfp{
   border: #00487B solid;
+  margin-top: 5%;
 }
 .nameAndTitle{
-  display: inline-block;
   float: left;
-  border: 5px solid black;
+  text-align: right;
+  margin-bottom: 15%;
+  margin-top: 2%;
 }
 .alumni{
-  display: inline-block;
   float: right;
-  border: 5px solid black;
+  text-align: left;
+  margin-top: 10%;
 }
 .name{
   color: #000000;
-
+  font-size: x-large;
 }
 .role{
   color: #757575;
 }
 .status{
   color: #000000;
-
+  font-size: large;
 }
 .uni{
   color: #000000;
+  font-size: large;
 }
 .degree{
   color: #757575;
 }
+/*All about me css*/
 .aboutMe{
-  border: 5px solid rgb(8, 216, 94); /* For visual spacing*/
+
   width: 100%;
   display: inline-block;
   background-color: #F5F5F5;
 }
 /*All skills css*/
 .skill{
-  border: 5px solid rgb(8, 216, 94); /* For visual spacing*/
   width: 100%;
   display: inline-block;
   background-color: #F5F5F5;

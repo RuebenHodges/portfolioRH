@@ -17,18 +17,20 @@ function App() {
       <body>
         <main>
           <div className="introduction">
-            <div className='nameAndTitle'>
-              <h1 className='name'>Rueben Hodges</h1>
-              <h1 className='role'> Web Development</h1>
-              <h1 className='role'>software Develeopment</h1>
-            </div>
+            <div className='introduction-container'>
+              <div className='nameAndTitle'>
+                <h1 className='name'>Rueben Hodges</h1>
+                <h1 className='role'> Web Development</h1>
+                <h1 className='role'>User-Centric Design</h1>
+              </div>
 
-            <img className='pfp' src={pfp}></img>
+              <img className='pfp' src={pfp}></img>
 
-            <div className='alumni'>
-              <h1 className='status'>Alumni</h1>
-              <h1 className='uni'>University of Michigan - <span class="degree">Dearborn</span></h1>
-              <h1 className='degree'>B.S Software Engineering</h1>
+              <div className='alumni'>
+                <h1 className='status'>Alumni</h1>
+                <h1 className='uni'>University of Michigan - <span class="degree">Dearborn</span></h1>
+                <h1 className='degree'>Bachelor's Software Engineering</h1>
+              </div>
             </div>
           </div>
 
