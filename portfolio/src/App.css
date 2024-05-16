@@ -12,7 +12,7 @@ main{
 }
 h1{
   color: #00487B;
-  font-size: large;
+  font-size: x-large;
 }
 /*All CSS for introduction*/
 .introduction{
@@ -22,9 +22,11 @@ h1{
 .introduction-container{
   display: inline-block;
   align-items: center;
-  width: 43%;
+  width: 70%;
 }
 .pfp{
+  width: 40%;
+  height: 40%;
   margin-top: 5%;
 }
 .nameAndTitle{
@@ -36,22 +38,22 @@ h1{
 .alumni{
   float: right;
   text-align: left;
-  margin-top: 10%;
+  margin-top: 25%;
 }
 .name{
   color: #000000;
-  font-size: x-large;
+  font-size: xx-large;
 }
 .role{
   color: #757575;
 }
 .status{
   color: #000000;
-  font-size: large;
+  font-size: x-large;
 }
 .uni{
   color: #000000;
-  font-size: large;
+  font-size: x-large;
 }
 .degree{
   color: #757575;
