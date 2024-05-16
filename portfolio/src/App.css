@@ -73,11 +73,15 @@ h1{
   width: 55%;
 }
 .pfp2{
-  float: left;
-  padding-right: 30px;
+  margin-bottom: 20px;
 }
 p{
   text-align: left;
+}
+.textContainer{
+  display: inline-block;
+  width: 50%;
+  margin-left: 20px;
 }
 /*All skills css*/
 .skill{
