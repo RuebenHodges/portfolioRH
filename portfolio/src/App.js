@@ -55,7 +55,7 @@ function App() {
             </div>
           </div>
 
-          <div className="introduction">
+          <div className="skills">
             <h1>Skills & Technolgies</h1>
             <div className='SkillsContatiner'>
               <div className='captionContainer'>

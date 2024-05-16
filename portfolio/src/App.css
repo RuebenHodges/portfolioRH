@@ -22,18 +22,20 @@ h1{
 .introduction-container{
   display: inline-block;
   align-items: center;
+  margin-left: 40px;
   width: 70%;
 }
 .pfp{
   width: 40%;
   height: 40%;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 .nameAndTitle{
   float: left;
   text-align: right;
   margin-bottom: 15%;
-  margin-top: 2%;
+  margin-top: 6%;
 }
 .alumni{
   float: right;
