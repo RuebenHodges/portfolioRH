@@ -4,6 +4,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import reactLogo from './assets/react.png';
 import 'animate.css';
+import 'aos/dist/aos.css';  // Import the CSS styles
 //personal pictures
 import pfp from './assets/pfp.png';
 import pfp2 from './assets/pfp2.png';
@@ -14,8 +15,10 @@ import jsLogo from './assets/JavaScript-logo.png';
 import sqlLogo from './assets/sql.png';
 
 function App() {
+ 
   return (
     <div className="App">
+      <script> Aos.init(); </script>
       <Navbar/>
       <body>
         <main>
@@ -36,7 +39,6 @@ function App() {
               </div>
             </div>
           </div>
-
           <div className="aboutMe">
             <h1>Software Engineer Specializing in Innovative Web Development</h1>
             <div className='aboutMeContainer'>
@@ -56,33 +58,30 @@ function App() {
                 </div>
             </div>
           </div>
-
-          <div className="skills">
+          <div className="skills" >
             <h1>Skills & Technolgies</h1>
-            <div className='SkillsContatiner'>
-              <div className='captionContainer'>
-                <img className ='skillLogos' src={reactLogo}></img>
-                <figcaption>React</figcaption>
-              </div>
-              <div className='captionContainer'>
-                <img className ='skillLogos' src={htmlCss}></img>
-                <figcaption>HTML</figcaption>
-              </div>
-              <div className='captionContainer'>
-                <img className ='skillLogos' src={javaLogo}></img>
-                <figcaption>Java</figcaption>
-              </div>
-              <div className='captionContainer'>
-                <img className ='skillLogos' src={jsLogo}></img>
-                <figcaption>Javascript</figcaption>
-              </div>
-              <div className='captionContainer'>
-                <img className ='skillLogos' src={sqlLogo}></img>
-                <figcaption>Sql</figcaption>
-            </div>
-          </div>
-           
-
+              <div  className='SkillsContatiner'>
+                <div className='captionContainer'>
+                  <img className ='skillLogos' src={reactLogo}></img>
+                  <figcaption>React</figcaption>
+                </div>
+                <div className='captionContainer'>
+                  <img className ='skillLogos' src={htmlCss}></img>
+                  <figcaption>HTML</figcaption>
+                </div>
+                <div className='captionContainer'>
+                  <img className ='skillLogos' src={javaLogo}></img>
+                  <figcaption>Java</figcaption>
+                </div>
+                <div className='captionContainer'>
+                  <img className ='skillLogos' src={jsLogo}></img>
+                  <figcaption>Javascript</figcaption>
+                </div>
+                <div className='captionContainer'>
+                  <img className ='skillLogos' src={sqlLogo}></img>
+                  <figcaption>Sql</figcaption>
+                </div>
+              </div>        
           </div>
         </main>
       </body> 

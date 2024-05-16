@@ -116,6 +116,7 @@ p{
   width: 100%;
   display: inline-block;
   background-color: #F5F5F5;
+
 }
 .skillLogos{
   padding: 50px;
@@ -137,6 +138,7 @@ figcaption{
   font-family: Georgia,;
   color: #00487B;
   font-weight: bold;
+  margin-bottom: 40px;
 }
 /*App CSS*/
 .App-logo {
