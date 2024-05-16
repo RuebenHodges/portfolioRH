@@ -3,6 +3,7 @@ import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar';
 import reactLogo from './assets/react.png';
+import 'animate.css';
 //personal pictures
 import pfp from './assets/pfp.png';
 import pfp2 from './assets/pfp2.png';
@@ -21,9 +22,9 @@ function App() {
           <div className="introduction">
             <div className='introduction-container'>
               <div className='nameAndTitle'>
-                <h1 className='name'>Rueben Hodges</h1>
+                <h1 className='name' >Rueben Hodges</h1>
                 <h1 className='role'> Web Development</h1>
-                <h1 className='role'>User-Centric Design</h1>
+                <h1 className='role2'>User-Centric Design</h1>
               </div>
 
               <img className='pfp' src={pfp}></img>
@@ -37,7 +38,7 @@ function App() {
           </div>
 
           <div className="aboutMe">
-          <h1>Software Engineer Specializing in Innovative Web Development</h1>
+            <h1>Software Engineer Specializing in Innovative Web Development</h1>
             <div className='aboutMeContainer'>
               
               <img className='pfp2' src={pfp2}></img>
