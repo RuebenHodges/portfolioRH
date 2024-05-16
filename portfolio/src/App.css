@@ -1,3 +1,4 @@
+/*Global*/
 .App {
   text-align: center;
 }
@@ -15,8 +16,8 @@ h1{
   color: #00487B;
   font-size: large;
 }
+/*All CSS for introduction*/
 .introduction{
-  align-content: center;
   border: 5px solid rgb(8, 216, 94); /* For visual spacing*/
   width: 100%;
   display: inline-block;
@@ -57,6 +58,7 @@ h1{
   display: inline-block;
   background-color: #F5F5F5;
 }
+/*All skills css*/
 .skill{
   border: 5px solid rgb(8, 216, 94); /* For visual spacing*/
   width: 100%;
@@ -76,6 +78,7 @@ figcaption{
   color: #00487B;
   font-weight: bold;
 }
+/*App CSS*/
 .App-logo {
   height: 40vmin;
   pointer-events: none;
