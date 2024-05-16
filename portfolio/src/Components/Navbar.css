@@ -10,7 +10,7 @@
 .navbar ul li{
     display: inline-block; /* Displays the list items inline-block */
     margin-right: 100px;    /* Adds space between the items */
-    font-size: xx-large;
+    font-size: x-large;
     padding: 5px;
 }
 .navbar ul li a{

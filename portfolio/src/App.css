@@ -16,9 +16,40 @@ h1{
   font-size: large;
 }
 .introduction{
+  align-content: center;
   border: 5px solid rgb(8, 216, 94); /* For visual spacing*/
   width: 100%;
   display: inline-block;
+}
+.pfp{
+  border: #00487B solid;
+}
+.nameAndTitle{
+  display: inline-block;
+  float: left;
+  border: 5px solid black;
+}
+.alumni{
+  display: inline-block;
+  float: right;
+  border: 5px solid black;
+}
+.name{
+  color: #000000;
+
+}
+.role{
+  color: #757575;
+}
+.status{
+  color: #000000;
+
+}
+.uni{
+  color: #000000;
+}
+.degree{
+  color: #757575;
 }
 .aboutMe{
   border: 5px solid rgb(8, 216, 94); /* For visual spacing*/
