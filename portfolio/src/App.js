@@ -30,7 +30,7 @@ function App() {
 
               <div className='alumni'>
                 <h1 className='status'>Alumni</h1>
-                <h1 className='uni'>University of Michigan - <span class="degree">Dearborn</span></h1>
+                <h1 className='uni'>University of Michigan - <span class="locale">Dearborn</span></h1>
                 <h1 className='degree'>Bachelor's Software Engineering</h1>
               </div>
             </div>
