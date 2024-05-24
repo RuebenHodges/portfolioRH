@@ -2,6 +2,7 @@ import './App.css';
 //import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import React from 'react';
 import Navbar from './components/Navbar';
+import Footnotes from './components/footnotes';
 import reactLogo from './assets/react.png';
 import 'animate.css';
 import 'aos/dist/aos.css';  // Import the CSS styles
@@ -18,7 +19,6 @@ function App() {
  
   return (
     <div className="App">
-      <script> Aos.init(); </script>
       <Navbar/>
       <body>
         <main>
@@ -58,7 +58,7 @@ function App() {
                 </div>
             </div>
           </div>
-          <div className='skills' >
+          <div className='skills'>
             <h1>Skills & Technolgies</h1>
               <div  className='SkillsContatiner'>
                 <div className='captionContainer'>
@@ -85,8 +85,8 @@ function App() {
           </div>
         </main>
       </body> 
+      <Footnotes/>
     </div>
-
   );
 }
 

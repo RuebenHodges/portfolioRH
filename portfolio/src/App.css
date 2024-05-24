@@ -99,6 +99,7 @@ h1{
   width: 100%;
   display: inline-block;
   align-items: center;
+  background-color:#eeeeee;
 
 }
 .aboutMeContainer{
@@ -114,11 +115,20 @@ h1{
 }
 p{
   text-align: left;
+  color: #eeeeee;
+  padding: 20px;
+  font-size: large;
+  font-weight: 700;
+  text-shadow: 0px 2px 2px rgb(0, 0, 0);
 }
 .textContainer{
   display: inline-block;
-  width: 50%;
+  width: 70%;
   margin-left: 20px;
+  background-color: #00487B;
+  border: solid 4px #e4d835;
+  border-radius: 20px;
+  margin-bottom: 30px;
 }
 /*All skills css*/
 .skill{
