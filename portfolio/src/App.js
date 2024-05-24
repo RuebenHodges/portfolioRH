@@ -6,8 +6,8 @@ import reactLogo from './assets/react.png';
 import 'animate.css';
 import 'aos/dist/aos.css';  // Import the CSS styles
 //personal pictures
-import pfp from './assets/pfp.png';
-import pfp2 from './assets/pfp2.png';
+import pfp from './assets/unnamed.jpg';
+import pfp2 from './assets/unnamed2.jpg';
 //skills sections
 import htmlCss from './assets/htmlCss.png';
 import javaLogo from './assets/Java-logo.png';
