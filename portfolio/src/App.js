@@ -46,7 +46,7 @@ function App() {
               <img className='pfp2' src={pfp2}></img>
                 <div className='textContainer'>
                   <p> 
-                  Greetings! Im a recent graduate holding a Bachelor’s Degree in Software Engineering. 
+                  Greetings! I'm a recent graduate holding a Bachelor’s Degree in Software Engineering. 
                   I am passionate about creating user-centric solutions in web development. 
                   Through my academic studies and project work, 
                   I have gained a strong understanding of technologies such as Java, SQL, 
