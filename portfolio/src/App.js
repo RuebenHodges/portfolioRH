@@ -14,11 +14,13 @@ import htmlCss from './assets/htmlCss.png';
 import javaLogo from './assets/Java-logo.png';
 import jsLogo from './assets/JavaScript-logo.png';
 import sqlLogo from './assets/sql.png';
+import PageNavigation from './PageNavigation';
 
 function App() {
  
   return (
     <div className="App">
+      <PageNavigation/>
       <Navbar/>
       <body>
         <main>
