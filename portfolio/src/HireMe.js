@@ -14,7 +14,7 @@ import sqlLogo from './assets/sql.png';
 
 function HireMe() {
   return (
-    <Navbar/>
+    <p>contact</p>
   );
 }
 
