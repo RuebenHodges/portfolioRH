@@ -7,7 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 import Footnotes from './components/footnotes.js';
 import 'animate.css';
 import 'aos/dist/aos.css';  // Import the CSS styles
-import Projects from './About.js';
+import Projects from './projects.js';
 import Contact from './HireMe.js';
 import About from './About.js';
 function App() {

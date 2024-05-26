@@ -18,9 +18,8 @@ function HireMe() {
           <h3>best way to contact me is 
             <a className='socials' href="mailto:hodgesr@umich.edu"> Email </a>  or  
             <a className='socials' href='https://www.linkedin.com/in/ruebenhodges/'> linkedin </a></h3>
-          <a href={resume} download={"RuebensResume"}>
-            <button className="resumeButton" type='button'> Download Resume</button>
-          </a>
+            <a href={resume} download={"RuebensResume"}>
+            <button className="resumeButton" type='button'> Download Resume</button></a>
           </div>
         </main>
       </body>
